@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    transition: 0.3s;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    margin-right: 550px;
+}
+
+.signupbtn{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+.loginbtn{
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 500px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 20px;
+    width: 200px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 100%;
+}
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
