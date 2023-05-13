@@ -49,7 +49,7 @@ h1 {
     margin-right: 550px;
 }
 
-.container {
+.formbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

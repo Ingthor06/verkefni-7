@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    background-image: url();
+    background-image: url("backgound-img.jpg");
 }
 
 header {
@@ -85,6 +85,49 @@ table {
     padding: .625em;
     text-align: center;
   }
+
+/**------Video------**/
+/************** Viðmið 60em 960px = fartölvur *******************/
+
+@media screen and (min-width: 60em) {  
+    .container {
+        max-width: 60em; /* verður ekki breiðari dálkur */
+        margin: 0 auto; /* top+bottom og left+right */
+        padding: 0;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .topnav {
+        margin-top: 7em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .topnav a {
+        padding: 0 0 0 3em;
+    }
+  
+    .verkefni {
+        text-align: right;
+        color: #F7D37E;
+    }
+  
+    .gap {
+        gap: 3em
+    }
+    .margintop {
+        margin-top: 3em;
+    }
+    .fyrirsogn h1 {
+        font-size: 8em;
+    }
+  }
+  @media screen and (min-width: 90em) {  
+    .fyrirsogn {
+        max-width: 90em;
+    }
+  }
+  
 
 
 /**-------Footer-------**/
