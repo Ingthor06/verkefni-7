@@ -122,11 +122,6 @@ table {
         font-size: 8em;
     }
   }
-  @media screen and (min-width: 90em) {  
-    .fyrirsogn {
-        max-width: 90em;
-    }
-  }
   
 
 
