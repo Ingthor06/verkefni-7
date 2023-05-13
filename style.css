@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    background-image: url("backgound-img.jpg");
+    background-image: url("background-img.avif");
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 }
 
 .logo img {
-    height: 80px;
+    height: 100px;
 }
 
 nav {
@@ -94,10 +94,8 @@ table {
         max-width: 60em; /* verður ekki breiðari dálkur */
         margin: 0 auto; /* top+bottom og left+right */
         padding: 0;
-    }
-    h1 {
-        font-size: 2.5em;
-    }
+        }
+
     .topnav {
         margin-top: 7em;
         display: flex;
