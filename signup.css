@@ -50,12 +50,6 @@ h1 {
     margin-right: 15px;
 }
 
-@media screen and (min-width: 45em) {  
-  .formbox {
-      max-width: 45em; /* verður ekki breiðari dálkur */
-      margin: 0 auto; /* top+bottom og left+right */
-      padding: 0;
-      }
 
 
 
@@ -136,7 +130,7 @@ h2 {
 .terms-of-conditions{
   color: #007bff;
 }
-}
+
 /**--------Footer--------**/
 
 
