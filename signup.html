@@ -31,33 +31,53 @@
     <main>
 
     <div class="formbox">
-		<form>
-			<h2>Sign up</h2>
-			<label for="name">Username:</label>
-			<input type="text" id="name" name="name" required>
-			<br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" pattern=".+@.+" required>
-			<br>
-			<label for="password">Password:</label>
-			<input type="password" id="password" name="password" required>
-			<br>
-			<input type="date" id="date" name="date" required>
-			<select type="sex" id="sex" name="sex" required>
-				<option value="male">Male</option>
-				<option value="female">Female</option>
-			</select>
-			<h5> phone number: (required)</h5>
-			<input type="tel" id="tel" name="tel" required>
-			<br>
-			<textarea rows="10" 
-			placeholder="Skrifaðu skilaboð hér og við munum svara við fyrsta tækifæri."></textarea>
-			<br>
-			<input type="checkbox" name="agree" required>
-			I have read and agree to<a class="terms-of-conditions" href="terms-and-conditions.html"> terms and conditions</a>
-			<br>
-			<input type="submit" value="Sign up">
-		</form>
+        <form action="#">
+			<h2>Signup</h2>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" id="name" name="name" placeholder="Enter a username you want" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" pattern=".+@.+" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" id="password" name="password" placeholder="Enter a password you want" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm password</span>
+                    <input type="password" id="password" name="password" placeholder="Confirm your password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Birthdate</span>
+                    <input type="date" id="date" name="date" placeholder="Enter your birthdate" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">phone number: (required)</span>
+                    <input type="tel" id="tel" name="tel" placeholder="Enter your phonenumber" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Gender</span>
+                    <select type="sex" id="sex" name="sex" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <textarea rows="10" 
+                    placeholder="Skrifaðu skilaboð hér og við munum svara við fyrsta tækifæri."></textarea>
+                </div>
+                <div class="input-box">
+                    <input type="checkbox" name="agree" required>
+                    I have read and agree to<a class="terms-of-conditions" href="terms-and-conditions.html"> terms and conditions</a>
+                </div>
+                <div class="input-box">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </form>
 		
 	</main>
 <br><br>
