@@ -75,7 +75,7 @@ h1 {
     padding: 100px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
     width: 500px;
 }
 form {
@@ -83,7 +83,7 @@ form {
     flex-direction: column;
     align-items: right;
     margin-top: 20px;
-    width: 200px;
+    width: 500px;
 }
 input[type="text"],
 input[type="email"],
@@ -104,11 +104,13 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: medium;
 }
 h2 {
     margin-bottom: 20px;
     text-align: center;
     color: #4CAF50;
+    font-size: xx-large;
 }
 
 /**-------Footer--------**/
@@ -199,6 +201,9 @@ ul {
 .google-bg{
   background: #DD4B39;
 }
+.footer-content {
+  padding-left: 15px;
+}
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
@@ -257,6 +262,7 @@ ul {
 }
 .copyright-text p {
   margin: 0;
+  padding: 15px;
   font-size: 14px;
   color: #878787;
 }

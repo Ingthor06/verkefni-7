@@ -225,6 +225,9 @@ ul {
 .google-bg{
   background: #DD4B39;
 }
+.footer-content {
+  padding-left: 15px;
+}
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
@@ -283,6 +286,7 @@ ul {
 }
 .copyright-text p {
   margin: 0;
+  padding: 15px;
   font-size: 14px;
   color: #878787;
 }
